@@ -11,9 +11,7 @@ describe('NgxLibComponent', () => {
       declarations: [ NgxLibComponent ]
     })
     .compileComponents();
-  });
 
-  beforeEach(() => {
     fixture = TestBed.createComponent(NgxLibComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
