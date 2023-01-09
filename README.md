@@ -26,3 +26,5 @@ For this setup you will need to create 3 auth tokens and save them as secrets in
 Don't forget to search/replace my github handle and NPM Package name/Github repo with yours, after you fork/clone/download this repo :)
 
 If you like it remember to **give repo a star**⭐
+
+<!--  -->
