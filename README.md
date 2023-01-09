@@ -21,10 +21,6 @@ For this setup you will need to create 3 auth tokens and save them as secrets in
 2. Github repo token: A personal access token from GitHub, to enable github actions access your public repositories. To create one go to https://github.com/settings/tokens select Personal access tokens > Tokens (Classic). Click on the button to create new token and select public_repo scope. I named it GH_Token
 3. Synk API token: Snyk is a tool that simplifies security checks, to help monitor for, alert on, and offer assistance to mitigate vulnerabilities. Snyk is free, so sign-up and get your [Snyk API Token](https://app.snyk.io/account). Add your Snyk API Token as a Repository Secret on GitHub: https://github.com/<your-account-or-organization\>/\<your-repo-name\>/settings/secrets/actions/new. I named it SNYK_TOKEN
 
-## Support
-
-For support, email wogwugwu.zenith@gmail.com, I will do my best to respond to all issues
-
 ## Important
 
 Don't forget to search/replace my github handle and NPM Package name/Github repo with yours, after you fork/clone/download this repo :)
