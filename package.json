@@ -12,7 +12,10 @@
         "test": "ng test ngx-lib",
         "prepare": "husky install"
     },
-    "repository": "https://github.com/sulaimon23/ngx-package-pack.git",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/sulaimon23/ngx-package-pack.git"
+    },
     "keywords": [
         "typescript",
         "angular"
