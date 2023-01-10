@@ -31,7 +31,7 @@ jobs:
               run: npx ci
               # run: npm ci
             - name: Install semantic-release extra plugins
-              run: npm install --save-dev semantic-release @semantic-release/changelog @semantic-release/git
+              run: npm install --save-dev semantic-release
             # - name: Lint
             #   run: npm run lint-fix
             # Redundant cos tests workflow has already been run
